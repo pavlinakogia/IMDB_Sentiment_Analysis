@@ -1,3 +1,12 @@
+##  Live Demo
+
+ **[Try the app here](https://pavlinakogia-imdb-sentiment.streamlit.app)**
+
+---
+
+
+
+
 # IMDB Sentiment Analysis — NLP Classification
 
 An end-to-end NLP project that classifies movie reviews as positive 
@@ -79,3 +88,17 @@ Run scripts in order:
 
 ---
 
+## How to Run the app
+
+### Option 1 — Live App (no installation needed)
+👉 [https://pavlinakogia-imdb-sentiment.streamlit.app](https://pavlinakogia-imdb-sentiment.streamlit.app)
+
+### Option 2 — Run locally
+Run scripts in order:
+1. python data.py
+2. python preprocessing.py
+3. python model.py
+4. python predict.py
+
+### Option 3 — Run the Streamlit app locally
+streamlit run app.py
