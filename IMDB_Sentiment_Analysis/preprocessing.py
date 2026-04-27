@@ -59,7 +59,7 @@ y_train.to_csv('y_train.csv', index=False)
 y_test.to_csv('y_test.csv',   index=False)
 
 # Αποθήκευση TF-IDF vectorizer για αργότερα
-with open('tfidf.pkl', 'wb') as f:
+with open('../tfidf.pkl', 'wb') as f:
     pickle.dump(tfidf, f)
 
 print("\nΑποθηκεύτηκαν X_train, X_test, y_train, y_test, tfidf.pkl")

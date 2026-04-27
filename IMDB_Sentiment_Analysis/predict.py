@@ -1,9 +1,9 @@
 import pickle
 
 # Φόρτωση μοντέλου και vectorizer
-with open('best_model.pkl', 'rb') as f:
+with open('../best_model.pkl', 'rb') as f:
     model = pickle.load(f)
-with open('tfidf.pkl', 'rb') as f:
+with open('../tfidf.pkl', 'rb') as f:
     tfidf = pickle.load(f)
 
 import re

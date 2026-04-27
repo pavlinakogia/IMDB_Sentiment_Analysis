@@ -84,7 +84,7 @@ plt.show()
 
 # ── 5. Top λέξεις ανά sentiment ───────────────────────────────────────────
 lr = results['Logistic Regression']['model']
-with open('tfidf.pkl', 'rb') as f:
+with open('../tfidf.pkl', 'rb') as f:
     tfidf = pickle.load(f)
 
 feature_names = tfidf.get_feature_names_out()
@@ -103,6 +103,6 @@ plt.show()
 
 # ── 6. Αποθήκευση καλύτερου μοντέλου ─────────────────────────────────────
 best_model = results[best_name]['model']
-with open('best_model.pkl', 'wb') as f:
+with open('../best_model.pkl', 'wb') as f:
     pickle.dump(best_model, f)
 print(f"\n Αποθηκεύτηκε το {best_name} ως best_model.pkl")
