@@ -8,6 +8,7 @@ or negative using TF-IDF vectorization and machine learning classifiers.
 ## Project Structure
 
 IMDB_Sentiment_Analysis/
+
 ├── data.py            # Dataset download & preparation
 
 ├── preprocessing.py   # Text cleaning & TF-IDF vectorization
