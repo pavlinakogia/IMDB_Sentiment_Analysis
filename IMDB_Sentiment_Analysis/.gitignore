@@ -1,0 +1,11 @@
+__pycache__/
+.idea/
+*.pyc
+aclImdb/
+aclImdb_v1.tar.gz
+X_train.npz
+X_test.npz
+y_train.csv
+y_test.csv
+train.csv
+test.csv
