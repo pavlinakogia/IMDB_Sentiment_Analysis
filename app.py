@@ -1,10 +1,15 @@
+import nltk
+import os
+
+# Κατέβασμα NLTK δεδομένων πριν από οτιδήποτε άλλο
+nltk.download('stopwords', quiet=True)
+nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True)
+
 import streamlit as st
 import pickle
 import re
 from nltk.corpus import stopwords
-import nltk
-nltk.download('stopwords', quiet=True)
-nltk.download('punkt', quiet=True)
 
 # ── Φόρτωση μοντέλου & vectorizer ────────────────────────────────────────
 @st.cache_resource
