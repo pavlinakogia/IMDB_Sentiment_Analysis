@@ -1,7 +1,7 @@
 __pycache__/
 .idea/
 *.pyc
-aclImdb/
+IMDB_Sentiment_Analysis/aclImdb/
 aclImdb_v1.tar.gz
 X_train.npz
 X_test.npz
